@@ -1,0 +1,12 @@
+public class InvalidShapeException extends Exception{
+       
+       private String name;
+       
+       InvalidShapeException(Shape s){
+              this.shape = s.getClass().getSimpleName();
+       }
+       
+       public String getName(){
+              return this.name();
+       }
+}

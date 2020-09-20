@@ -1,0 +1,16 @@
+public class Parallelogram extends Shape{
+       private int tilt;
+       
+       Parallelogram(int x, int y, int base, int height, int tilt){
+              super(x,y,base,height);
+              this.tilt = tilt;
+       }
+       
+       public int getTilt(){
+              return this.tilt;
+       }
+       
+       public void setTilt(int tilt){
+              this.tilt = tilt;
+       }
+}

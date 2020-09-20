@@ -1,0 +1,5 @@
+public class Rhombus extends Parallelogram{
+       Rhombus (int x, int y, int base, int tilt){
+              super(x, y, base, base, tilt);
+       }
+}

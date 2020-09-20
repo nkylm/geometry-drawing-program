@@ -1,0 +1,5 @@
+public class Circle extends Oval{       
+       Circle(int x, int y, int width){
+              super(x,y,width,width);
+       }
+}

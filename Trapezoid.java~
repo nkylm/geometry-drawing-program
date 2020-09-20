@@ -1,0 +1,26 @@
+public class Trapezoid extends Shape{
+       private int topW;
+       private int bottomW;
+       
+       Trapezoid (int x, int y, int bottomW, int topW, int height){
+              super (x, y, bottomW, height);
+              this.bottomW = bottomW;
+              this.topW = topW;
+       }
+       
+       public int getTopW(){
+              return this.topW;
+       }
+       
+       public void setTopW(int topW){
+              this.topW = topW;
+       }
+       
+       public int getBottomW(){
+              return this.bottomW;
+       }
+       
+       public void setBottomW(int bottomW){
+              this.bottomW = bottomW;
+       }
+}
